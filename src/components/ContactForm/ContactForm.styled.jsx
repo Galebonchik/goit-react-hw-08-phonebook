@@ -11,15 +11,15 @@ export const Input = styled.input`
   background: #fff;
   color: purple;
   padding: 15px;
-  width: 280px;
+  width: 90%;
   border: none;
   border-radius: 5px;
 `;
 
 export const Button = styled.button`
   display: inline-block;
-  cursor: pointer;
   text-align: center;
+  cursor: pointer;
   width: 280px;
   height: 50px;
   margin: 10% auto;

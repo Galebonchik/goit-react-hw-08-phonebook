@@ -4,7 +4,6 @@ import { fetchContacts, addContacts, deleteContacts } from './operations';
 const getActions = type =>
   isAnyOf(fetchContacts[type], addContacts[type], deleteContacts[type]);
 
-
 const initialState = { items: [], isLoading: false, error: null };
 
 const contactsSlice = createSlice({
@@ -43,8 +42,6 @@ const contactsSlice = createSlice({
       }),
 });
 
-
 export const { addContact, deleteContact } = contactsSlice.actions;
-
 
 export const contactsReducer = contactsSlice.reducer;
